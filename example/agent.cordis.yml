@@ -1,0 +1,4 @@
+# 在 agent preset 的 agent.cordis.yml 中加入一行即可启用(前提:包已通过 npm 安装,见 README)
+
+- id: tool-superpowers-workflow
+  name: dsh-superpowers-workflow
