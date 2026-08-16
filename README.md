@@ -29,10 +29,11 @@ Superpowers 风格的 **DeepSeek Harness (DSH) 开发工作流插件**。
 ### 1. 安装包
 
 ```bash
-npm install github:<你的用户名>/superpowers-workflow
+npm install github:yefei124/superpowers-workflow
 ```
 
-(或发布到 npm 后:`npm install dsh-superpowers-workflow`)
+> 仓库地址:https://github.com/yefei124/superpowers-workflow
+> (发布到 npm 后:`npm install dsh-superpowers-workflow`)
 
 ### 2. 在 agent preset 中启用
 
@@ -102,11 +103,14 @@ Agent 会自动调用 `sup_start` 启动工作流,并按阶段引导:
 
 ## 发布到 DSH 插件市场
 
-DSH 社区存在多个 GitHub 插件市场(如 [dsh-market](https://github.com/dsh-market/dsh-market)、[AwesomeHou/dsh-plugin-marketplace](https://github.com/AwesomeHou/dsh-plugin-marketplace)、[whalehub-dsh](https://github.com/vvlife/whalehub-dsh)),其中不少会**实时同步 GitHub 上带 `dsh-plugin` 话题(topic)的仓库**。因此:
+DSH 社区存在多个 GitHub 插件市场(如 [dsh-market](https://github.com/dsh-market/dsh-market)、[AwesomeHou/dsh-plugin-marketplace](https://github.com/AwesomeHou/dsh-plugin-marketplace)、[whalehub-dsh](https://github.com/vvlife/whalehub-dsh)),其中不少会**实时同步 GitHub 上带 `dsh-plugin` 话题(topic)的仓库**。
 
-1. 把本仓库推送到 GitHub
-2. 在仓库 **Settings → Topics** 添加话题:`dsh-plugin`
-3. 社区市场会自动收录(取决于各市场同步策略),或向市场仓库提交收录请求
+本仓库已上线并打好话题:
+
+- 仓库:https://github.com/yefei124/superpowers-workflow
+- Topics:`dsh-plugin` · `dsh` · `deepseek-harness` · `cordis` · `tdd` · `workflow`
+
+社区市场会自动收录(取决于各市场同步策略);也可向市场仓库提交收录请求。
 
 ## Roadmap
 
